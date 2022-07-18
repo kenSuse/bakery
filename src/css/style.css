@@ -1,6 +1,4 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body {
@@ -54,7 +52,7 @@ body {
     height: 160px;
     border: 1px solid #000000;
     margin: 0 auto;
-    padding: 17px 0 0 28px;
+    padding: 18px 0 0 28px;
 }
 .section-about__title {
     font-size: 36px;
@@ -65,6 +63,9 @@ body {
 }
 
 /* section-news */
+.section-news {
+    margin-bottom: 20px;
+}
 .section-news__icon {
     text-align: center;
     margin-bottom: 20px;
@@ -88,4 +89,29 @@ body {
     width: 1000px;
     font-size: 18px;
     margin: 0 auto;
+}
+
+/* section-map */
+.section-map {
+    margin-bottom: 20px;
+}
+.section-map__order {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+/* footer */
+.footer-line {
+    border: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.footer-menu {
+    height: 40px;
 }
