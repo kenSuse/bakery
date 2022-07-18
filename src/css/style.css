@@ -1,6 +1,34 @@
 * {
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'Roboto bold';
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto regular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Philosopher';
+    src: url('../fonts/Philosopher.eot');
+    src: url('../fonts/Philosopher.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Philosopher.woff') format('woff'),
+    url('../fonts/Philosopher.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: 'Roboto regular';
+}
 body {
     background-color: #FFE2B0;
 }
@@ -28,7 +56,8 @@ body {
     font-size: 18px;
     color: black;
     text-transform: uppercase;
-    font-weight: bold;
+    font-family: 'Roboto bold';
+    font-weight: 800;
 }
 
 /* main */
@@ -57,9 +86,11 @@ body {
 .section-about__title {
     font-size: 36px;
     margin-bottom: 9px;
+    font-family: 'Philosopher';
 }
 .section-about__text {
     font-size: 12px;
+    width: 335px;
 }
 
 /* section-news */
@@ -81,6 +112,7 @@ body {
 }
 .section-news__title {
     font-size: 96px;
+    font-family: 'Philosopher';
 }
 .red {
     color: #F15B40;
@@ -99,6 +131,7 @@ body {
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Philosopher';
 }
 iframe {
     display: block;
