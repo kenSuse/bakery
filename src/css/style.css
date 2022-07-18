@@ -75,3 +75,17 @@ body {
 .section-news__icon img:last-child {
     margin-right: 0;
 }
+.section-news-box {
+    text-align: center;
+}
+.section-news__title {
+    font-size: 96px;
+}
+.red {
+    color: #F15B40;
+}
+.section-news__text {
+    width: 1000px;
+    font-size: 18px;
+    margin: 0 auto;
+}
